@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color:rgb(255, 255, 255);
+    font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    padding: 10px;
+}
 li, a, button {
     font-family: "inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -20,8 +25,8 @@ li, a, button {
 header {
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
-    padding: 30px 22px 10px 22px;
+    align-items:center;
+    padding: 30px 10px 10px;
 }
 
 .nav_links {
@@ -29,8 +34,8 @@ header {
 }
 
 .nav_links li {
-    display:flex; 
-    padding: 8px 20px;
+    display:inline-block; 
+    padding: 8px 10px 50px;
 }
 
 .nav_links li a {
@@ -41,6 +46,50 @@ header {
     color: #46c363
 }
 
+.hero-container {
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    margin: 10rem auto 0 auto;
+    align-items: center;
+    padding: 30px 10px 10px;
+    margin: 20px;
+    max-width: 1673px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-container img {
+    height: 500px;
+    margin: 0px ;   
+}
+
+.hero-container h1 {
+    margin: 0;
+	font-family:Inter;
+    font-weight: 400;
+	font-size:75px;
+    min-width: 533px;
+    max-width: 533px;
+    
+}
+
+.paragraph { 
+    max-height: 227.5px;
+    max-width:655px;
+    line-clamp: 5;
+}
+
+.hero-container p {
+    font-size: 3rem;
+    line-height: 1.5;
+	font-family:Inter;
+	font-size:25px;
+    padding: 20px 0;
+    min-width: 512px; 
+}
+
+
 button {
     padding: 9px 25px ;
     margin: 8px;
@@ -50,7 +99,6 @@ button {
     cursor: pointer;
     transition: all .3s ease 0s;
     justify-items: 30px;
-
 }
 
 button:hover {
@@ -58,3 +106,7 @@ button:hover {
     color: white;
 }
 
+.resume {
+    margin: 20px 500px 0px 0px;
+    position: absolute;
+}
