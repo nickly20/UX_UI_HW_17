@@ -127,6 +127,7 @@ button:hover {
 .socials {
     height: 20px;
     width: 30px;
+    background: transparent !important;
 }
 
 footer {
@@ -137,10 +138,16 @@ footer {
     position: sticky;
     bottom: 0;
     color: none;
+background: transparent !important;
 }
  
 .socials {
     height: 30px;
     width: 100px;
     margin: 40px;
+    background: transparent !important;
+}
+
+.social-box {
+    background: transparent !important;
 }
